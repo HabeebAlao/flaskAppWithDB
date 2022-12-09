@@ -17,6 +17,3 @@ EXPOSE 5000
 
 # Set the default command to run the Flask app
 CMD ["python", "app.py"]
-
-# Link to the Cloud SQL instance
-LINK second-project-371110:us-central1:my-cloud-sql-instance:sql
