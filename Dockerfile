@@ -19,4 +19,4 @@ EXPOSE 5000
 CMD ["python", "app.py"]
 
 # Link to the Cloud SQL instance
-LINK my-cloud-sql-instance:sql
+LINK second-project-371110:us-central1:my-cloud-sql-instance:sql
